@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/my_agents/my_agents.egg-info
+writing ../../build/my_agents/my_agents.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_agents/my_agents.egg-info/dependency_links.txt
+writing entry points to ../../build/my_agents/my_agents.egg-info/entry_points.txt
+writing requirements to ../../build/my_agents/my_agents.egg-info/requires.txt
+writing top-level names to ../../build/my_agents/my_agents.egg-info/top_level.txt
+writing manifest file '../../build/my_agents/my_agents.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_agents/my_agents.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_agents/my_agents.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/christopher/ROS/build/my_agents/build
+creating /home/christopher/ROS/build/my_agents/build/lib
+creating /home/christopher/ROS/build/my_agents/build/lib/my_agents
+copying my_agents/simple_agent.py -> /home/christopher/ROS/build/my_agents/build/lib/my_agents
+copying my_agents/__init__.py -> /home/christopher/ROS/build/my_agents/build/lib/my_agents
+running install
+running install_lib
+creating /home/christopher/ROS/install/my_agents/lib/python3.8/site-packages/my_agents
+copying /home/christopher/ROS/build/my_agents/build/lib/my_agents/simple_agent.py -> /home/christopher/ROS/install/my_agents/lib/python3.8/site-packages/my_agents
+copying /home/christopher/ROS/build/my_agents/build/lib/my_agents/__init__.py -> /home/christopher/ROS/install/my_agents/lib/python3.8/site-packages/my_agents
+byte-compiling /home/christopher/ROS/install/my_agents/lib/python3.8/site-packages/my_agents/simple_agent.py to simple_agent.cpython-38.pyc
+byte-compiling /home/christopher/ROS/install/my_agents/lib/python3.8/site-packages/my_agents/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/christopher/ROS/install/my_agents/share/ament_index
+creating /home/christopher/ROS/install/my_agents/share/ament_index/resource_index
+creating /home/christopher/ROS/install/my_agents/share/ament_index/resource_index/packages
+copying resource/my_agents -> /home/christopher/ROS/install/my_agents/share/ament_index/resource_index/packages
+copying package.xml -> /home/christopher/ROS/install/my_agents/share/my_agents
+running install_egg_info
+Copying ../../build/my_agents/my_agents.egg-info to /home/christopher/ROS/install/my_agents/lib/python3.8/site-packages/my_agents-0.0.0-py3.8.egg-info
+running install_scripts
+Installing simple_agent script to /home/christopher/ROS/install/my_agents/lib/my_agents
+writing list of installed files to '/home/christopher/ROS/build/my_agents/install.log'

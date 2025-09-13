@@ -1,0 +1,37 @@
+[0.969s] Invoking command in '/home/christopher/ROS/src/my_agents': PYTHONPATH=/home/christopher/ROS/build/my_agents/prefix_override:/home/christopher/.local/lib/python3.8/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/christopher/ROS/install/my_agents/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_agents build --build-base /home/christopher/ROS/build/my_agents/build install --record /home/christopher/ROS/build/my_agents/install.log --install-scripts $base/lib/my_agents --single-version-externally-managed install_data
+[1.289s] running egg_info
+[1.289s] creating ../../build/my_agents/my_agents.egg-info
+[1.290s] writing ../../build/my_agents/my_agents.egg-info/PKG-INFO
+[1.290s] writing dependency_links to ../../build/my_agents/my_agents.egg-info/dependency_links.txt
+[1.290s] writing entry points to ../../build/my_agents/my_agents.egg-info/entry_points.txt
+[1.290s] writing requirements to ../../build/my_agents/my_agents.egg-info/requires.txt
+[1.290s] writing top-level names to ../../build/my_agents/my_agents.egg-info/top_level.txt
+[1.291s] writing manifest file '../../build/my_agents/my_agents.egg-info/SOURCES.txt'
+[1.328s] reading manifest file '../../build/my_agents/my_agents.egg-info/SOURCES.txt'
+[1.329s] writing manifest file '../../build/my_agents/my_agents.egg-info/SOURCES.txt'
+[1.329s] running build
+[1.329s] running build_py
+[1.329s] creating /home/christopher/ROS/build/my_agents/build
+[1.330s] creating /home/christopher/ROS/build/my_agents/build/lib
+[1.330s] creating /home/christopher/ROS/build/my_agents/build/lib/my_agents
+[1.330s] copying my_agents/simple_agent.py -> /home/christopher/ROS/build/my_agents/build/lib/my_agents
+[1.330s] copying my_agents/__init__.py -> /home/christopher/ROS/build/my_agents/build/lib/my_agents
+[1.330s] running install
+[1.331s] running install_lib
+[1.333s] creating /home/christopher/ROS/install/my_agents/lib/python3.8/site-packages/my_agents
+[1.333s] copying /home/christopher/ROS/build/my_agents/build/lib/my_agents/simple_agent.py -> /home/christopher/ROS/install/my_agents/lib/python3.8/site-packages/my_agents
+[1.333s] copying /home/christopher/ROS/build/my_agents/build/lib/my_agents/__init__.py -> /home/christopher/ROS/install/my_agents/lib/python3.8/site-packages/my_agents
+[1.334s] byte-compiling /home/christopher/ROS/install/my_agents/lib/python3.8/site-packages/my_agents/simple_agent.py to simple_agent.cpython-38.pyc
+[1.337s] byte-compiling /home/christopher/ROS/install/my_agents/lib/python3.8/site-packages/my_agents/__init__.py to __init__.cpython-38.pyc
+[1.337s] running install_data
+[1.337s] creating /home/christopher/ROS/install/my_agents/share/ament_index
+[1.338s] creating /home/christopher/ROS/install/my_agents/share/ament_index/resource_index
+[1.338s] creating /home/christopher/ROS/install/my_agents/share/ament_index/resource_index/packages
+[1.338s] copying resource/my_agents -> /home/christopher/ROS/install/my_agents/share/ament_index/resource_index/packages
+[1.338s] copying package.xml -> /home/christopher/ROS/install/my_agents/share/my_agents
+[1.338s] running install_egg_info
+[1.342s] Copying ../../build/my_agents/my_agents.egg-info to /home/christopher/ROS/install/my_agents/lib/python3.8/site-packages/my_agents-0.0.0-py3.8.egg-info
+[1.343s] running install_scripts
+[1.372s] Installing simple_agent script to /home/christopher/ROS/install/my_agents/lib/my_agents
+[1.372s] writing list of installed files to '/home/christopher/ROS/build/my_agents/install.log'
+[1.406s] Invoked command in '/home/christopher/ROS/src/my_agents' returned '0': PYTHONPATH=/home/christopher/ROS/build/my_agents/prefix_override:/home/christopher/.local/lib/python3.8/site-packages/colcon_core/task/python/colcon_distutils_commands:/home/christopher/ROS/install/my_agents/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_agents build --build-base /home/christopher/ROS/build/my_agents/build install --record /home/christopher/ROS/build/my_agents/install.log --install-scripts $base/lib/my_agents --single-version-externally-managed install_data

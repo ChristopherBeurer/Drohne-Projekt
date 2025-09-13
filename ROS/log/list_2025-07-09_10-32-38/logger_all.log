@@ -1,0 +1,56 @@
+[0.300s] DEBUG:colcon:Command line arguments: ['/home/christopher/.local/bin/colcon', 'list', '-p', '--base-paths', '/home/christopher/ROS']
+[0.300s] DEBUG:colcon:Parsed command line arguments: Namespace(base_paths=['/home/christopher/ROS'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f6746910490>>, metas=['./colcon.meta'], names_only=False, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=True, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f6746910490>, verb_name='list', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f67468806d0>)
+[0.550s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.551s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/christopher/ROS'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS) by extensions ['ignore', 'ignore_ament_install']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS) by extension 'ignore'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS) by extension 'ignore_ament_install'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS) by extensions ['colcon_pkg']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS) by extension 'colcon_pkg'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS) by extensions ['colcon_meta']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS) by extension 'colcon_meta'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS) by extensions ['ros']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS) by extension 'ros'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS) by extensions ['cmake', 'python']
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS) by extension 'cmake'
+[0.594s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS) by extension 'python'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS) by extensions ['python_setup_py']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS) by extension 'python_setup_py'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS/build) by extensions ['ignore', 'ignore_ament_install']
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS/build) by extension 'ignore'
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS/build) ignored
+[0.595s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS/install) by extensions ['ignore', 'ignore_ament_install']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS/install) by extension 'ignore'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS/install) ignored
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS/log) by extensions ['ignore', 'ignore_ament_install']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS/log) by extension 'ignore'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS/log) ignored
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS/src) by extensions ['ignore', 'ignore_ament_install']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS/src) by extension 'ignore'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS/src) by extension 'ignore_ament_install'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS/src) by extensions ['colcon_pkg']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS/src) by extension 'colcon_pkg'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS/src) by extensions ['colcon_meta']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS/src) by extension 'colcon_meta'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS/src) by extensions ['ros']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS/src) by extension 'ros'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS/src) by extensions ['cmake', 'python']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS/src) by extension 'cmake'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS/src) by extension 'python'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS/src) by extensions ['python_setup_py']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS/src) by extension 'python_setup_py'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS/src/my_agents) by extensions ['ignore', 'ignore_ament_install']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS/src/my_agents) by extension 'ignore'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS/src/my_agents) by extension 'ignore_ament_install'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS/src/my_agents) by extensions ['colcon_pkg']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS/src/my_agents) by extension 'colcon_pkg'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS/src/my_agents) by extensions ['colcon_meta']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS/src/my_agents) by extension 'colcon_meta'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS/src/my_agents) by extensions ['ros']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/christopher/ROS/src/my_agents) by extension 'ros'
+[0.603s] DEBUG:colcon.colcon_core.package_identification:Package '/home/christopher/ROS/src/my_agents' with type 'ros.ament_python' and name 'my_agents'
+[0.603s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
